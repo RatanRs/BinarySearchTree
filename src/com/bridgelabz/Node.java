@@ -1,5 +1,10 @@
 package com.bridgelabz;
-
+/***8
+ * 
+ * @author Admin
+ *
+ * @param <K>
+ */
 public class Node<K extends Comparable<K>> {
     K key;
     Node<K> left;
@@ -7,7 +12,7 @@ public class Node<K extends Comparable<K>> {
 
     public Node(K key)
     {
-        super();
+      
         this.key = key;
         this.left = null;
         this.right = null;
